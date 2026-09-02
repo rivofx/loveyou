@@ -66,10 +66,6 @@ export const CONFIG = {
   // Mesajul final de pe ecranul cu inima
   finalMessage: "Te iubesc.",
 
-  // Fișierul audio (pune fișierul în folderul 'public/' și schimbă numele aici)
-  // Exemplu: music: "/melodia-noastra.mp3"
-  music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-
   // Culori temă (folosește clase Tailwind)
   colors: {
     background: "bg-rose-50",

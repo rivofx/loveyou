@@ -4,7 +4,6 @@ import { Heart, ChevronRight, RotateCcw } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { CONFIG } from './config';
 import FloatingHearts from './components/FloatingHearts';
-import MusicPlayer from './components/MusicPlayer';
 
 type Stage = 'intro' | 'story' | 'letter' | 'pause' | 'final';
 
@@ -58,7 +57,6 @@ export default function App() {
   return (
     <div className={`min-h-screen ${CONFIG.colors.background} ${CONFIG.colors.text} overflow-hidden font-sans relative transition-colors duration-1000`}>
       <FloatingHearts />
-      <MusicPlayer />
 
       <motion.main 
         initial={{ opacity: 0 }}
