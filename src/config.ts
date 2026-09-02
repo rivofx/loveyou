@@ -37,6 +37,14 @@ export const CONFIG = {
       caption: "Prima dată când ne-am întâlnit..."
     },
     {
+      type: "foto",
+      // Pune aici link-ul către videoclipul cu prima voastră întâlnire
+      // Poți folosi un fișier local din 'public/' (ex: "/video.mp4") sau un URL extern direct către fișierul video
+      url: "https://cdn.stoatusercontent.com/attachments/Wn4p5TWfCRI8QIRhv5Sui0qV9EV8aKknlRLouBC40P/IMG_1340.MP4",
+      caption: "Prima cina impreuna..."
+    },
+
+    {
       type: "text",
       content: "Fiecare moment petrecut cu tine este o binecuvântare."
     },
