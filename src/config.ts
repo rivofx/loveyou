@@ -15,7 +15,7 @@ export const CONFIG = {
   herName: "Iubirea Mea",
   
   // Numele tău
-  myName: "Partenerul Tău",
+  myName: "Iubitelul Tău",
 
   // POVESTEA NOASTRĂ
   // Poți adăuga oricâte elemente vrei (text sau video)
@@ -33,7 +33,7 @@ export const CONFIG = {
       type: "video",
       // Pune aici link-ul către videoclipul cu prima voastră întâlnire
       // Poți folosi un fișier local din 'public/' (ex: "/video.mp4") sau un URL extern direct către fișierul video
-      url: "https://assets.mixkit.co/videos/preview/mixkit-romantic-couple-walking-on-the-beach-at-sunset-4028-large.mp4",
+      url: "https://cdn.stoatusercontent.com/attachments/Wn4p5TWfCRI8QIRhv5Sui0qV9EV8aKknlRLouBC40P/IMG_1340.MP4",
       caption: "Prima dată când ne-am întâlnit..."
     },
     {
