@@ -15,7 +15,7 @@ export const CONFIG = {
   herName: "Iubirea Mea",
   
   // Numele tău
-  myName: "Partenerul Tău",
+  myName: "Iubitelul Tau",
 
   // POVESTEA NOASTRĂ
   // Poți adăuga oricâte elemente vrei (text, video sau photo)
@@ -32,22 +32,22 @@ export const CONFIG = {
     {
       type: "video",
       // Pune aici link-ul către videoclipul cu prima voastră întâlnire
-      url: "https://assets.mixkit.co/videos/preview/mixkit-romantic-couple-walking-on-the-beach-at-sunset-4028-large.mp4",
+      url: "https://cdn.stoatusercontent.com/attachments/Wn4p5TWfCRI8QIRhv5Sui0qV9EV8aKknlRLouBC40P/IMG_1340.MP4",
       caption: "Prima dată când ne-am întâlnit..."
     },
     {
       type: "photo",
-      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/f4935ecf-c6ca-4c55-b461-89745b736735/image.png", // Prima noastra cina
+      url: "https://cdn.stoatusercontent.com/attachments/VZQRi1hFjHDjTinSTauY8YpfMclrgKrnuUPH2TnrBy/5819157937480471129.jpg", // Prima noastra cina
       caption: "Prima noastră cină împreună"
     },
     {
       type: "photo",
-      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/05d54ed2-c0e8-460d-8625-2e1189c42c27/image.png", // Primul nostru pahar
+      url: "https://cdn.stoatusercontent.com/attachments/TA_m9P9whu9rA0pMb5ewEpclAMmhJaHGagCOj_Nz8n/5819157937480471128.jpg", // Primul nostru pahar
       caption: "Primul nostru pahar împreună"
     },
     {
       type: "photo",
-      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/40a455a7-951c-4b53-9114-1149e6d4218f/image.png", // Primul nostru pensat
+      url: "https://cdn.stoatusercontent.com/attachments/LB6srJg_5NFkHwBI1OfOam5Qrt1qo1ZmBaqkkQakQs/5819157937480471127.jpg", // Primul nostru pensat
       caption: "Primul nostru pensat împreună"
     },
     {
