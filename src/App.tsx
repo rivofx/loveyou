@@ -109,7 +109,7 @@ export default function App() {
                     "{currentItem.content}"
                   </p>
                 </div>
-              ) : (
+              ) : currentItem.type === 'video' ? (
                 <div className="space-y-8">
                   <motion.div 
                     initial={{ scale: 0.9, opacity: 0 }}
@@ -127,6 +127,23 @@ export default function App() {
                       VIDEO
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none flex items-end justify-center p-6">
+                      <p className="text-white text-xl font-medium">{currentItem.caption}</p>
+                    </div>
+                  </motion.div>
+                </div>
+              ) : (
+                <div className="space-y-8">
+                  <motion.div 
+                    initial={{ scale: 0.9, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] md:aspect-video"
+                  >
+                    <img 
+                      src={currentItem.url} 
+                      alt="Amintire" 
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-center p-6">
                       <p className="text-white text-xl font-medium">{currentItem.caption}</p>
                     </div>
                   </motion.div>

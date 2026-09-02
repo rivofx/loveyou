@@ -4,7 +4,7 @@
  */
 
 export interface StoryItem {
-  type: 'text' | 'video';
+  type: 'text' | 'video' | 'photo';
   content?: string;
   url?: string;
   caption?: string;
@@ -15,11 +15,11 @@ export const CONFIG = {
   herName: "Iubirea Mea",
   
   // Numele tău
-  myName: "Iubitelul Tău",
+  myName: "Partenerul Tău",
 
   // POVESTEA NOASTRĂ
-  // Poți adăuga oricâte elemente vrei (text sau video)
-  // Tipuri: 'text' sau 'video'
+  // Poți adăuga oricâte elemente vrei (text, video sau photo)
+  // Tipuri: 'text', 'video' sau 'photo'
   story: [
     {
       type: "text",
@@ -32,18 +32,24 @@ export const CONFIG = {
     {
       type: "video",
       // Pune aici link-ul către videoclipul cu prima voastră întâlnire
-      // Poți folosi un fișier local din 'public/' (ex: "/video.mp4") sau un URL extern direct către fișierul video
-      url: "https://cdn.stoatusercontent.com/attachments/Wn4p5TWfCRI8QIRhv5Sui0qV9EV8aKknlRLouBC40P/IMG_1340.MP4",
+      url: "https://assets.mixkit.co/videos/preview/mixkit-romantic-couple-walking-on-the-beach-at-sunset-4028-large.mp4",
       caption: "Prima dată când ne-am întâlnit..."
     },
     {
-      type: "foto",
-      // Pune aici link-ul către videoclipul cu prima voastră întâlnire
-      // Poți folosi un fișier local din 'public/' (ex: "/video.mp4") sau un URL extern direct către fișierul video
-      url: "https://cdn.stoatusercontent.com/attachments/Wn4p5TWfCRI8QIRhv5Sui0qV9EV8aKknlRLouBC40P/IMG_1340.MP4",
-      caption: "Prima cina impreuna..."
+      type: "photo",
+      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/f4935ecf-c6ca-4c55-b461-89745b736735/image.png", // Prima noastra cina
+      caption: "Prima noastră cină împreună"
     },
-
+    {
+      type: "photo",
+      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/05d54ed2-c0e8-460d-8625-2e1189c42c27/image.png", // Primul nostru pahar
+      caption: "Primul nostru pahar împreună"
+    },
+    {
+      type: "photo",
+      url: "https://storage.googleapis.com/multimodal-ac-production/attachments/40a455a7-951c-4b53-9114-1149e6d4218f/image.png", // Primul nostru pensat
+      caption: "Primul nostru pensat împreună"
+    },
     {
       type: "text",
       content: "Fiecare moment petrecut cu tine este o binecuvântare."
